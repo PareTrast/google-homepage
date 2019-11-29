@@ -1,3 +1,17 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
 ol.ul {
     list-style: none;
 }
@@ -25,14 +39,29 @@ ol.ul {
     color:#fff;
 }
 
-
-#logo img {
+.Glogo {
+    text-align: center;
+}   
+.logo img {
     text-align: center;
 
 }
-#search {
-    width: 427px;
-    height: 32px;
-    text-align:center;
+.search_container {
+    text-align: center;
+}
 
+.search{
+    display: inline-block;
+
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
+
+.bottom {
+    text-align: center;
 }
